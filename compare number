@@ -1,0 +1,13 @@
+# Python is case sensitive, for example "C" has lower value of "c"
+#True, False - correct writing. true, false - wrong form
+
+def is_positive(number):
+    if number > 0:
+       return True
+
+is_positive(13)   
+
+
+run:
+
+returned True
