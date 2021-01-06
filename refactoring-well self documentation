@@ -1,0 +1,28 @@
+# any program should be readable, in good style
+#example:
+
+def calculate(d):
+    q = 3.14
+    z = q*(d**2)
+    print(z)
+
+>>> calculate(5)
+78.5
+
+def circle_area(radius):
+    pi = 3.14
+    area_circle = pi*(radius**2)
+    print(area_circle)
+
+>>> circle_area(5)
+78.5
+
+
+def rectangle_area(base, height):
+    return base*height
+    
+>>> area = rectangle_area(5, 6)
+print("The area is " + str(area))
+
+Here is your output:
+The area is 30
