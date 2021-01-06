@@ -11,3 +11,26 @@ is_positive(13)
 run:
 
 returned True
+
+another run:
+is_positive(-5)   
+
+returned None 
+
+
+#now if we use else statement with False value, then wrong value returns False
+
+def is_positive(number):
+    if number > 0:
+       return True
+    else:
+       return False
+
+
+run:
+
+is_positive(13)  
+returned True
+
+is_positive(-5)   
+returned False
