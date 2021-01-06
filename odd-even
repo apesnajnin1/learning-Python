@@ -1,0 +1,4 @@
+def is_even(number):
+    if number % 2 == 0;   # modulo operator, returns only integer remainder. if even number, remainder always will be zero
+       return True
+    return False   # this line only executed when if statement is false 9similar to else statement)
