@@ -1,0 +1,14 @@
+def month_days(month_name):
+...     if month_name == "Feb":
+...        return 28
+...     list = ["April", "June", "Sept", "Nov"]
+...     if month_name in list:
+...        return 30
+...     else:
+...        return 31
+
+ 
+ month_name = "April"
+>>> days = month_days("month_name")
+
+>>> print("The days in "+ month_name+ " is "+ str(days))
